@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-// import '@/styles/globals.scss'
+import '@/styles/globals.scss'
 
 const HomePage = () => {
     return (

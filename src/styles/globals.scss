@@ -1,4 +1,43 @@
-@use "dOtrosAjustes/generales.scss";
+html,
+body {
+    padding: 0;
+    margin: 0;
 
-@use "aHeader/navbar.scss";
-@use "bMain/principal.scss";
+    header {
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 3rem;
+            background-color: green;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                li {
+                    display: flex;
+
+                    .link {
+                        color: white;
+                        text-decoration: none;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    main {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+        h1,
+        button {
+            margin-left: 3rem;
+        }
+    }
+}
