@@ -18,6 +18,12 @@ const Navbar = () => {
                 <li>
                     <Link className='link' href="/posts">Posts</Link>
                 </li>
+                <li>
+                    <Link className='link' href="/api/users">Users</Link>
+                </li>
+                <li>
+                    <Link className='link' href="/api/cuchas">Cuchas</Link>
+                </li>
             </ul>
         </nav>
     )
